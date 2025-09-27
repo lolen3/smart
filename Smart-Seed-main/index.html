@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Seed Crop Recommender</title>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Smart Seed: Predict Best Crop</h2>
+  <form id="predictForm">
+    <input type="text" name="county" placeholder="County (e.g., Kisii)" required>
+    <input type="number" name="lat" placeholder="Latitude" step="0.0001" required>
+    <input type="number" name="lon" placeholder="Longitude" step="0.0001" required>
+    <input type="number" name="month" placeholder="Month (1-12)" required>
+    <input type="text" name="season" placeholder="Season (long_rains/dry/short_rains)" required>
+    <input type="number" name="soilPh" placeholder="Soil pH" step="0.1" required>
+    <input type="number" name="nitrogen" placeholder="Nitrogen" required>
+    <input type="number" name="phosphorus" placeholder="Phosphorus" required>
+    <input type="number" name="potassium" placeholder="Potassium" required>
+    <input type="number" name="moisture" placeholder="Soil Moisture" required>
+    <input type="number" name="humidity" placeholder="Humidity (%)" required>
+    <button type="submit">Get Recommendation</button>
+  </form>
+  <div id="result"></div>
+</body>
+</html>

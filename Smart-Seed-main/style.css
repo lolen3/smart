@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f7f7;
+  }
+  
+  .hero-section {
+    background: url('https://images.unsplash.com/photo-1573496130141-209d200cebd7') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .content {
+    z-index: 2;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .content p {
+    font-size: 1.25rem;
+  }
+  
+  .btn-success {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+  }
+  
+  #recommendationBox {
+    font-size: 1.25rem;
+    padding: 1.5rem;
+  }

@@ -1,0 +1,2 @@
+Final Test Accuracy: 47.42%
+Final Macro F1 Score: 17.40%
